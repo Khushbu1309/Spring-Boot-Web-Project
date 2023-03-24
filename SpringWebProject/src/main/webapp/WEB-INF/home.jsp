@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-hello 
-beffllow
+ Welcome ${name} 
 
 </body>
 </html>
