@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
- Welcome ${name} 
+ Welcome to ${name} 
 
 </body>
 </html>
