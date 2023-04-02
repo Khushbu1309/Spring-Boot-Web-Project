@@ -15,14 +15,15 @@ public class HomeController {
 	
 	@RequestMapping("home")
 //	@ResponseBody
-	public ModelAndView home(@RequestParam("name") String myname ){
+	public ModelAndView home(Student student){
 //		HttpSession session=req.getSession();
 //		String name=req.getParameter("name");
 		
-//		System.out.println("hii "+name);
+		System.out.println("hii ");
 //		session.setAttribute("name", name);
 		ModelAndView mv=new ModelAndView("home");
-		mv.addObject("name", myname);
+		mv.addObject("obj", student);
+		
 		mv.setViewName("home");
 		return mv;
 		
